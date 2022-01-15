@@ -18,6 +18,7 @@ body{
     margin-top: 30px;
     margin-left: 500px;
 }
+
 .container{
    
     display: flex;
@@ -30,6 +31,7 @@ body{
     margin-bottom: 100px;
     
 }
+
 .heading-part{
     margin-top: 80px;
 }
@@ -42,6 +44,16 @@ font-size: 40px;
     margin-left: 20px;
     height: 414px;
     width: 440px;
+
+}
+.anime{
+    transition: transform  2s ;
+}
+header:hover .anime{
+
+    transform: rotate(20deg);
+    transform-origin:center;
+ 
 }
 
 
